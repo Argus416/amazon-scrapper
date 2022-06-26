@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/bin/node /Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/bin/yarn add twillio dotenv
+
+PATH: 
+  /opt/homebrew/opt/openssl@3/bin:/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/openssl@3/bin:/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/twillio: Not found
+      at Request.params.callback [as _callback] (/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/mohamad-alkhatib/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "web-scraper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "cheerio": "^1.0.0-rc.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
